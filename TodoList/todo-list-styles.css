@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+body{
+   background: linear-gradient(to right , #F4F6F7 , #F0F3F4,#dfe1e1);
+   font-family: 'Courgette', cursive;
+}
+
+.box{
+    
+    height:  500px;
+    width: 400px;
+    background-color: white;
+    align-self: center;
+    margin: 50px auto;
+    border-radius: 20px;
+    border: 5px solid #1D2D35;
+
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: #FFE13A;
+    height: 40px;
+    border-radius: 12px 12px 0 0;
+    font-size: 25px;
+    padding-top: 5px;
+    color: #1D2D35;
+    border-bottom: #1D2D35 dashed;
+    font-weight: bold;
+}
+
+.header:hover{
+    width: 100%;
+    text-align: center;
+    background-color: #1D2D35 ;
+    height: 40px;
+    border-radius: 12px 12px 0 0;
+    font-size: 25px;
+    padding-top: 5px;
+    color: #FFE13A;
+    border-bottom: #FFE13A dashed;
+    font-weight: bold;
+}
+
+.wrap-list{
+   
+    height: 91%;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+}
+
+input[type = "checkbox"]{
+    position: relative;
+    top: 15px;
+    right: 12px;
+    float: right;
+}
+
+input[type = "checkbox"]:checked + label{
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.list {
+    list-style: none;
+    color: #1D2D35;
+}
+
+.list li{
+    width: 100%;
+    float: left;
+}
+
+label{
+    padding: 10px;
+    width: 88%;
+    float: left;
+   
+}
+
+.grey{
+    background-color: #dfe1e1;
+}
