@@ -1,0 +1,56 @@
+body{
+    padding-top: 20px;
+}
+
+.nav-justified {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+   
+}
+
+.nav-justified > li >a {
+   
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-justified > li > a:hover {
+    padding: 12px ;
+    border-radius: 5px;
+    color:rgb(9, 156, 209);
+    text-decoration: none;
+    text-align: center;
+    background-color: #e5e5e5;
+
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent !important;
+}
+
+.jumbotron .btn {
+    padding: 15px 25px;
+    font-size: 22px;
+    
+}
+
+.jumbotron > .btn > .text{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.row > .col-lg-4 {
+    justify-content: center;
+}
+
+.centro{
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+}
