@@ -1,0 +1,51 @@
+body{
+    margin-top: 20px;
+}
+.list-group{
+   
+    margin: 0 20px;
+}
+.list-group > li  {
+    padding: 20px ;
+    
+}
+
+.main{
+    /* background-color: lightgray; */
+    padding-left: 20px;
+    
+}
+
+.placeholders{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.placeholder{
+    margin-bottom: 20px;
+}
+
+.placeholder {
+    display: inline;
+    border-radius: 20px;
+}
+
+.listGroup{
+    background-color: lightgray;
+}
+
+.containerPart{
+    margin-top: 20px;
+}
+
+.listGroup > li > a{
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.listGroup > li:hover{
+    background-color: rgb(220, 217, 217);
+  
+}
