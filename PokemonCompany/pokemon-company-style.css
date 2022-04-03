@@ -1,6 +1,6 @@
-body{
+/* body{
     padding-bottom: 20px
-}
+} */
 
 .navbar-wrapper{
     position: absolute;
@@ -56,3 +56,10 @@ body{
      padding-top: 60px;
      align-items: center;
  }
+
+ footer{
+    margin-top: 10px;
+     width: 100%;
+ }
+
+ 
